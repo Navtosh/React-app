@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import mainLogo from "../../public/images/logo.png";
 import { SearchForm } from "./SearchForm";
+import { HeaderLinks } from "./HeaderLinks";
+import { HeaderSocialLinks } from "./HeaderSocialLinks";
+import { Navigation } from "./Navigation";
 
 export class Header extends Component {
   render() {
@@ -10,49 +13,10 @@ export class Header extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-7 align-self-center">
-                <ul className="list-inline extra-links">
-                  <li className="list-inline-item">
-                    <a href="">Sign Up</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="">Login</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="">RSS Feeds</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="">Archived News</a>
-                  </li>
-                </ul>
+                <HeaderLinks />
               </div>
               <div className="col-md-5 align-self-center">
-                <ul className="list-inline social-links float-right">
-                  <li className="list-inline-item">
-                    <a href="" className="in">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="" className="tw">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="" className="pt">
-                      <i className="fa fa-pinterest"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="" className="gp">
-                      <i className="fa fa-google-plus"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="" className="rs">
-                      <i className="fa fa-rss"></i>
-                    </a>
-                  </li>
-                </ul>
+                <HeaderSocialLinks />
               </div>
               <a className="slide_btn">-</a>
             </div>
@@ -79,49 +43,7 @@ export class Header extends Component {
                     className="collapse navbar-collapse"
                     id="navbarSupportedContent"
                   >
-                    <ul className="navbar-nav py-4 py-md-0">
-                      <li className="nav-item pl-4 pl-md-0 ml-0 active">
-                        <a className="nav-link" href="#">
-                          HOME PAGE
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          STYLE DEMO
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          FULL WIDTH
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          DROPDOW
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          GALLERY
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          PORTFOLIO
-                        </a>
-                      </li>
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          LINK TEXT
-                        </a>
-                      </li>
-
-                      <li className="nav-item pl-4 pl-md-0 ml-0">
-                        <a className="nav-link" href="#">
-                          LONG LINK TEXT
-                        </a>
-                      </li>
-                    </ul>
+                    <Navigation />
                   </div>
                 </nav>
               </div>

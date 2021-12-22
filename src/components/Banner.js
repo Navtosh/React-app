@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 //import mainLogo from "../../public/images/logo.png";
+import { BannerDiscription } from "./BannerDiscription";
+import { BannerImage } from "./BannerImage";
 
 export class Banner extends Component {
   render() {
@@ -24,140 +26,50 @@ export class Banner extends Component {
                   <div className="carousel-item active">
                     <div className="row">
                       <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 align-self-center">
-                        <div className="banner_discription">
-                          <h1>Your title can be long and descriptive</h1>
-                          <p>
-                            Cursuspenatisaccum ut curabitur nulla tellus tor
-                            <br />
-                            ames a in curabitur pede. Idet mollisi eros dis
-                            <br /> orci congue elis et curabitur.
-                          </p>
-                          <button
-                            className="btn btn-small btn-primary btn-blue "
-                            value="SEARCH"
-                          >
-                            READ MORE{" "}
-                            <i className="fa fa-angle-double-right"></i>
-                          </button>
-                        </div>
+                        <BannerDiscription />
                       </div>
                       <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 align-self-center">
-                        <img
-                          src="https://dummyimage.com/550x440/333333/ffffff.png"
-                          alt="NoBodysFool"
-                        />
+                        <BannerImage />
                       </div>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 align-self-center">
-                        <div className="banner_discription">
-                          <h1>Your title can be long and descriptive</h1>
-                          <p>
-                            Cursuspenatisaccum ut curabitur nulla tellus tor
-                            <br />
-                            ames a in curabitur pede. Idet mollisi eros dis
-                            <br /> orci congue elis et curabitur.
-                          </p>
-                          <button
-                            className="btn btn-small btn-primary btn-blue "
-                            value="SEARCH"
-                          >
-                            READ MORE{" "}
-                            <i className="fa fa-angle-double-right"></i>
-                          </button>
-                        </div>
+                        <BannerDiscription />
                       </div>
                       <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 align-self-center">
-                        <img
-                          src="https://dummyimage.com/550x440/333333/ffffff.png"
-                          alt="NoBodysFool"
-                        />
+                        <BannerImage />
                       </div>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 align-self-center">
-                        <div className="banner_discription">
-                          <h1>Your title can be long and descriptive</h1>
-                          <p>
-                            Cursuspenatisaccum ut curabitur nulla tellus tor
-                            <br />
-                            ames a in curabitur pede. Idet mollisi eros dis
-                            <br /> orci congue elis et curabitur.
-                          </p>
-                          <button
-                            className="btn btn-small btn-primary btn-blue "
-                            value="SEARCH"
-                          >
-                            READ MORE{" "}
-                            <i className="fa fa-angle-double-right"></i>
-                          </button>
-                        </div>
+                        <BannerDiscription />
                       </div>
                       <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 align-self-center">
-                        <img
-                          src="https://dummyimage.com/550x440/333333/ffffff.png"
-                          alt="NoBodysFool"
-                        />
+                        <BannerImage />
                       </div>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 align-self-center">
-                        <div className="banner_discription">
-                          <h1>Your title can be long and descriptive</h1>
-                          <p>
-                            Cursuspenatisaccum ut curabitur nulla tellus tor
-                            <br />
-                            ames a in curabitur pede. Idet mollisi eros dis
-                            <br /> orci congue elis et curabitur.
-                          </p>
-                          <button
-                            className="btn btn-small btn-primary btn-blue "
-                            value="SEARCH"
-                          >
-                            READ MORE{" "}
-                            <i className="fa fa-angle-double-right"></i>
-                          </button>
-                        </div>
+                        <BannerDiscription />
                       </div>
                       <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 align-self-center">
-                        <img
-                          src="https://dummyimage.com/550x440/333333/ffffff.png"
-                          alt="NoBodysFool"
-                        />
+                        <BannerImage />
                       </div>
                     </div>
                   </div>
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12 align-self-center">
-                        <div className="banner_discription">
-                          <h1>Your title can be long and descriptive</h1>
-                          <p>
-                            Cursuspenatisaccum ut curabitur nulla tellus tor
-                            <br />
-                            ames a in curabitur pede. Idet mollisi eros dis
-                            <br /> orci congue elis et curabitur.
-                          </p>
-                          <button
-                            className="btn btn-small btn-primary btn-blue "
-                            value="SEARCH"
-                          >
-                            READ MORE{" "}
-                            <i className="fa fa-angle-double-right"></i>
-                          </button>
-                        </div>
+                        <BannerDiscription />
                       </div>
                       <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 align-self-center">
-                        <img
-                          src="https://dummyimage.com/550x440/333333/ffffff.png"
-                          alt="NoBodysFool"
-                        />
+                        <BannerImage />
                       </div>
                     </div>
                   </div>
