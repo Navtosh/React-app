@@ -1,3 +1,4 @@
+// Navtosh Adhikari
 import React, { Component } from "react";
 import DeviceImg from "../../public/images/respon.png";
 import { Cards } from "./Cards";
@@ -37,3 +38,4 @@ export class MainContaint extends Component {
     );
   }
 }
+// Navtosh Adhikari
