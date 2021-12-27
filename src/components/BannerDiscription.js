@@ -12,8 +12,7 @@ export class BannerDiscription extends Component {
           <br /> orci congue elis et curabitur.
         </p>
         <button className="btn btn-small btn-primary btn-blue " value="SEARCH">
-          READ MORE
-          <i className="fa fa-angle-double-right"></i>
+          READ MORE <i className="fa fa-angle-double-right"></i>
         </button>
       </div>
     );
