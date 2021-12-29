@@ -14,7 +14,7 @@ export class Footer extends Component {
       <footer className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 my-4">
+            <div className="col-md-3 col-sm-6 my-4">
               <h5>ABOUT US</h5>
               <div className="row">
                 <div className="col-12">
@@ -22,7 +22,7 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 my-4">
+            <div className="col-md-3 col-sm-6 my-4">
               <h5>QUICK LINKS</h5>
               <div className="row">
                 <div className="col-12">
@@ -30,7 +30,7 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 my-4">
+            <div className="col-md-3 col-sm-6 my-4">
               <h5>LATEST BLOG POSTS</h5>
               <div className="row">
                 <div className="col-12">
@@ -38,7 +38,7 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 my-4">
+            <div className="col-md-3 col-sm-6 my-4">
               <h5>CONTACT US</h5>
               <div className="row">
                 <div className="col-12">

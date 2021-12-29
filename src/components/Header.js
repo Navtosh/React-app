@@ -12,10 +12,10 @@ export class Header extends Component {
         <div className="floating-header">
           <div className="container">
             <div className="row">
-              <div className="col-md-7 align-self-center">
+              <div className="col-md-7 col-sm-6 col-xs-12 align-self-center">
                 <HeaderLinks />
               </div>
-              <div className="col-md-5 align-self-center">
+              <div className="col-md-5 col-sm-6 col-xs-12 align-self-center">
                 <HeaderSocialLinks />
               </div>
               <a className="slide_btn">-</a>
@@ -43,6 +43,17 @@ export class Header extends Component {
                     className="collapse navbar-collapse"
                     id="navbarSupportedContent"
                   >
+                    <button
+                      className="navbar-toggler btn_sec"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="fa fa-close"></span>
+                    </button>
                     <Navigation />
                   </div>
                 </nav>
